@@ -1,33 +1,15 @@
 ---
-title: About Simples
-description: Simples is a super simple blogging theme for Jekyll.
-subtitle: Simples is a super simple blogging theme for Jekyll.
-featured_image: /images/social.jpg
+title: About Me
 ---
 
-![](/images/demo/demo-landscape.jpg)
+My name is **Pierre Chrzanowski**. 
 
-## Features
+I publish here my own works and views with a focus on technology, science, and politics.
 
-Simples is packed with powerful features to showcase your content:
+I currently work for the [Global Facility for Disaster Reduction and Recovery](https://www.gfdrr.org/en) (GFDRR), a global partnership that helps developing countries to better understand and reduce their vulnerability to natural hazards and climate change. GFDRR is part of the Climate Change Groupe of the World Bank.
 
-* Beautiful, minimal design
-* Single column post layout
-* Responsive – works perfectly on all devices
-* Portfolio/projects post type to show your work
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
+I am an open knowledge advocate and co-founded [Open Knowledge France](https://fr.okfn.org/) the French chapter of the Open Knowledge Foundation and [Ma Dada](https://madada.fr/) the French FOI website.
 
-## Get Simples
+I studied Information System Management at the University of Technology of Troyes (Diplôme d'Ingénieur) and spent also one year at the French Institute for International and Strategic Affairs (No diploma).
 
-Simples is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $49.
-
-<a href="https://jekyllthemes.io/theme/simples-blog-jekyll-theme" class="button button--large">Get This Theme</a>
+I was born in Reims, France in 1983.
