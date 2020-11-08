@@ -5,6 +5,7 @@
 // - - - - - - - - - - - - - - - - - -
 
 .listing-post {
+	overflow: auto;
 	margin-top: 50px;
 
 	@include mq(tabletp) {
@@ -22,48 +23,61 @@
 	&:first-child {
 		margin-top: 0;
 	}
+
 }
 
-.listing-post__header {
-	text-align: center;
-}
+h3.listing-post__title {
+		max-width: none;
+	}
 
 .listing-post__image {
-	margin-top: 20px;
-	display: block;
-	width: 100%;
-	height: 0;
-	padding-bottom: 56.25%;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+    width: 1em;
+    float: left;
+    height: 280px;
+    background-size: 400px;
+    margin-right: 1em;
+    background-repeat: no-repeat;
 
 	@include mq(tabletp) {
-		margin-top: 25px;
+		width: 25px;
+		margin-right: 1em;
 	}
 
 	@include mq(tabletl) {
-		margin-top: 30px;
+		width: 50px;
+		margin-right: 1em;
 	}
 
 	@include mq(laptop) {
-		margin-top: 40px;
+		width: 100x;
+		margin-right: 1em;
 	}
+
+
+	@include mq(desktop) {
+		width: 400px;
+		margin-right: 2em;
+	}
+
 }
 
 .listing-post__content {
 	margin-top: 20px;
 
 	@include mq(tabletp) {
-		margin-top: 25px;
+		margin-top: 20px;
 	}
 
 	@include mq(tabletl) {
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 
 	@include mq(laptop) {
-		margin-top: 40px;
+		margin-top: 20px;
+	}
+
+	p {
+		max-width: none;
 	}
 
 	p .button {
@@ -119,4 +133,9 @@
 .pagination__next {
 	float: right;
 	padding-left: $grid-spacing/2;
+}
+
+.listing-post img {
+	float:left;
+	width: 400px;
 }
