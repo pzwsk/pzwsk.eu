@@ -14,4 +14,4 @@ After a few years as a web application engineer and IT consultant, I spent two y
 
 I studied Information System Management at the University of Technology of Troyes, France and obtained my Diplôme d'Ingénieur in 2007. I also spent one year at the French Institute for International and Strategic Affairs in Paris, France, during the period 2009-2010.
 
-I was born in Reims, France, in 1983 and spent the first 18 years of my life in the village of [Fontaine-sur-Aÿ](https://fr.wikipedia.org/wiki/Fontaine-sur-Ay).  
+I was born in Reims, France, in 1983 and spent the first eighteen years of my life in the village of [Fontaine-sur-Aÿ](https://fr.wikipedia.org/wiki/Fontaine-sur-Ay).  
