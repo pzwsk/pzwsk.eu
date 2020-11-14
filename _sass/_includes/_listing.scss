@@ -213,10 +213,10 @@ h3.listing-post__title a {
 
 .listing-post img {
 	float:left;
-	width: 80px;
+	width: 100px;
 
 	@include mq(phonel) {
-		width: 80px;
+		width: 100px;
 	}
 
 	@include mq(tabletp) {
