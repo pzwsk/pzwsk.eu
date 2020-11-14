@@ -6,7 +6,6 @@
 
 .listing-post {
 	overflow: auto;
-	margin-top: 50px;
 
 	@include mq(tabletp) {
 		margin-top: 80px;
@@ -28,52 +27,78 @@
 
 h3.listing-post__title {
 		max-width: none;
+
+}
+
+h3.listing-post__title a {
+		font-size: 14px;
+
+	@include mq(phonel) {
+		font-size: 17px;
 	}
 
-.listing-post__image {
-    width: 1em;
-    float: left;
-    height: 280px;
-    background-size: 400px;
-    margin-right: 1em;
-    background-repeat: no-repeat;
-
 	@include mq(tabletp) {
-		width: 25px;
-		margin-right: 1em;
+		font-size: 22px;
 	}
 
 	@include mq(tabletl) {
-		width: 50px;
+		font-size: 22px;
+	}
+
+	@include mq(laptop) {
+		font-size: 22px;
+	}
+
+	@include mq(desktop) {
+		font-size: 22px;
+	}
+	
+}
+
+
+.listing-post__image {
+    float: left;
+    margin-right: 1em;
+    background-repeat: no-repeat;
+    min-height: 100px;
+
+	@include mq(tabletp) {
+		margin-right: 1em;
+		min-height: 100px;
+	}
+
+	@include mq(tabletl) {
 		margin-right: 1em;
 	}
 
 	@include mq(laptop) {
-		width: 100x;
 		margin-right: 1em;
 	}
 
 
 	@include mq(desktop) {
-		width: 400px;
 		margin-right: 2em;
 	}
 
 }
 
+.listing-post__image {
+	max-height: 20em;
+}
+
 .listing-post__content {
-	margin-top: 20px;
+	margin-top: 0px;
 
 	@include mq(tabletp) {
-		margin-top: 20px;
+		margin-top: 0px;
 	}
 
 	@include mq(tabletl) {
-		margin-top: 20px;
+		margin-top: 0px;
 	}
 
 	@include mq(laptop) {
-		margin-top: 20px;
+		margin-top: 0px;
 	}
 
 	p {
@@ -89,9 +114,60 @@ h3.listing-post__title {
 	}
 }
 
-.listing-post__subtitle {
+.listing-post__subtitle, {
 	margin-top: 5px;
 	color: $text-light-color;
+}
+
+.listing-post__subtitle, .listing-post__content {
+		display: none;
+
+	@include mq(phonel) {
+		display: none;
+	}
+
+	@include mq(tabletp) {
+		display: unset;
+	}
+
+	@include mq(tabletl) {
+		display: unset;
+	}
+
+	@include mq(laptop) {
+		display: unset;
+	}
+
+	@include mq(desktop) {
+		display: unset;
+	}
+
+}
+
+.listing-post__content a.button {
+
+		display: none;
+
+	@include mq(phonel) {
+		display: none;
+	}
+
+	@include mq(tabletp) {
+		display: none;
+	}
+
+	@include mq(tabletl) {
+		display: none;
+	}
+
+	@include mq(laptop) {
+		display: unset;
+	}
+
+	@include mq(desktop) {
+		display: unset;
+	}
+
 }
 
 .pagination {
@@ -137,5 +213,25 @@ h3.listing-post__title {
 
 .listing-post img {
 	float:left;
-	width: 400px;
+	width: 80px;
+
+	@include mq(phonel) {
+		width: 80px;
+	}
+
+	@include mq(tabletp) {
+		width: 200px;
+	}
+
+	@include mq(tabletl) {
+		width: 200px;
+	}
+
+	@include mq(laptop) {
+		width: 400px;
+	}
+
+	@include mq(desktop) {
+		width: 400px;
+	}
 }

@@ -13,7 +13,7 @@ description:
 		<article class="listing-post">
 
 			{% if post.featured_image %}
-			<a href="{{ post.url | relative_url }}" class="listing-post__image" style="background-image: url({{ post.featured_image | relative_url }});"></a>
+			<a href="{{ post.url | relative_url }}" class="listing-post__image" ><img src="{{ post.featured_image | relative_url }}"></a>
 			{% endif %}
 
 
