@@ -14,3 +14,7 @@ fields:
 - type: text
   name: excerpt
   label: excerpt
+- name: tag
+  type: tag_list
+  default: []
+  label: Tag
