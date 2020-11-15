@@ -13,4 +13,4 @@ excerpt: Ni la France, ni l'Europe, ne se sont dotés d'une politique d'infrastr
   donnée n'y changera rien.
 
 ---
-{% include image.html url="/images/acacia_large.jpg" description="Réserve nationale du Masai Mara au Kenya, Pierre Chrzanowski, 4 Septembre 2013 " %}
+{% include image.html url="/images/mapillary__brussel__large.jpg" description="Réserve nationale du Masai Mara au Kenya, Pierre Chrzanowski, 4 Septembre 2013 " %}
