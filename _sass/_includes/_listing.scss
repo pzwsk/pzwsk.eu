@@ -214,24 +214,30 @@ h3.listing-post__title a {
 .listing-post img {
 	float:left;
 	width: 100px;
+	max-height:66px;
 
 	@include mq(phonel) {
 		width: 100px;
+		max-height:66px;
 	}
 
 	@include mq(tabletp) {
 		width: 200px;
+		max-height: 132px;
 	}
 
 	@include mq(tabletl) {
 		width: 200px;
+		max-height: 132px;
 	}
 
 	@include mq(laptop) {
 		width: 400px;
+		max-height: 266px;
 	}
 
 	@include mq(desktop) {
 		width: 400px;
+		max-height:266px;
 	}
 }
