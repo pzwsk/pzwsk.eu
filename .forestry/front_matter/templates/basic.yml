@@ -18,3 +18,5 @@ fields:
   type: tag_list
   default: []
   label: Tag
+pages:
+- _posts/la-donnee-cette-infrastructure-qui-s-ignore.md
