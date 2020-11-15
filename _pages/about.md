@@ -4,7 +4,7 @@ title: About Me
 
 My name is **Pierre Chrzanowski**. 
 
-I am an open knowledge enthusiast and planet lover.
+I am an open knowledge enthusiast and planet Earth lover.
 
 Since 2020, I work for the [Global Facility for Disaster Reduction and Recovery](https://www.gfdrr.org/en) (GFDRR) where I am leading the [Open Data for Resilience Initiative](opendri.org/) (OpenDRI) and other tech projects. GFDRR is a global partnership that helps developing countries to reduce their vulnerability to natural hazards and climate change.
 

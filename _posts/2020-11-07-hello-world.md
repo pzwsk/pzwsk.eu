@@ -13,9 +13,7 @@ Malgré mon intérêt, voire mon addiction pour tout ce qui touche de près ou d
 
 Je publierai sur ce site web mes essais, articles ou notes avec un intérêt non exclusif pour les sciences, la technologie, la politique et l'économie. 
 
-Je me réserve cependant le droit d'écrire sur n'importe quel autre sujet (c'est mon site).
-
-Je publierai en français et en anglais, en fonction des sujets et des audiences.
+J'écrirai en français et ou en anglais, en fonction des sujets et des audiences.
 
 Ce site est ma part du web[^1], et je vous y souhaite la bienvenue.
 
